@@ -1,40 +1,26 @@
-body {
+body{
     text-align: center;
-}
-
-h1 {
-    font-family: cursive;
-    font-size: 30px;
-}
-
-#App {
-    width: 100%;
-    height: 800px;
-    background-color: greenyellow;
-}
-
-#Games {
-    width: 100%;
-    height: 800px;
-    background-color: yellowgreen;
-}
-
-#Chatbot {
-    width: 100%;
-    height: 800px;
-    background-color: blueviolet;
-}
-
-img {
-    transition: transform .2s;
-
-}
-img hover{
-    transition : scale(0.9);
-}
-.line{
-    height: 6px;
-    width: 70px;
     background-color: aquamarine;
-    margin: 8px;
+}
+div{
+    margin-top: 15px;
+}
+img{
+    border-style: dotted;
+    width: 500px;
+    height: 800px;
+}
+.Image-section{
+    display: flex;
+    justify-content: center;
+}
+.Image-style{
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
+}
+.section-style{
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: white;
 }
